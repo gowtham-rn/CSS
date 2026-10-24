@@ -1,0 +1,57 @@
+h1{
+    border: 2px solid;
+    margin: auto;       /*outer space*/
+    width: 300px;
+    padding: 10px;      /*inner space*/
+}
+p{
+    text-align: justify;
+    /*text-decoration: dashed underline;*/
+    /*text-transform: capitalize;*/
+    
+    /*word-spacing: 20px;
+    line-height: 20px;
+    text-shadow: 5px 5px 5px yellow;
+    */
+
+    /*font formatting*/
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 2em; /*1 em = 16px*/
+    /*font: sans-serif bold italic small-caps 2 em;  -> this is short hand format(single line)*/
+}
+a{
+    text-decoration: none; /*remove underline on the link*/
+}
+
+table,td,th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    
+}
+th{
+    height: 30px;
+}
+td{
+    height: 20px;
+    text-align: center;
+    vertical-align: bottom;
+}
+td:hover{
+    background-color: aqua;
+}
+th:hover{
+    background-color: blue;
+}
+
+thead:nth-child(odd){
+    background-color: chartreuse;
+}
+tbody:nth-child(even){
+    background-color: chocolate;
+}

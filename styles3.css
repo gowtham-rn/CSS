@@ -1,0 +1,12 @@
+.content{
+    border: 2px solid brown;
+    opacity: 0.5;  /*the range is in between 0 and 1*/
+}
+#paragraph{
+    background-color: aqua;
+}
+
+/*this is class inside class*/
+.content .para{
+    background-color: blue !important;
+}                               /*when i put important then it must be the highest priority*/

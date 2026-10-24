@@ -1,0 +1,47 @@
+/*tag selector*/
+h4{
+    color: brown;
+}
+
+/*id selector*/
+#total{
+    color:aqua
+}
+
+/*class selector*/
+.text{
+    background-color: blanchedalmond;
+}
+
+/*universal selector*/
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*grouping selector*/
+p,.text{
+    font-style: italic;
+}
+
+
+body{
+    /*background-image: url(csklogo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll;*/
+    background: url(csklogo.svg) no-repeat right; /*all properties into single line */
+}
+
+h2{
+    
+    /*border-style: dashed solid dotted double;*/ /* this is four sides - different border styles*/
+    border-style: solid;
+    /*border-width: 5px 10px ;  this is for top and bottom - 5px and left and right - 10 px*/
+    border-width: medium;
+    border-color: blueviolet aquamarine;
+    border-radius: 5px 0px 15px 2px;
+    
+
+    /*we give all into one line also, ie
+    border: solid medium red 5px;*/
+}
